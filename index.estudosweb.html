@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Universo Wiki</h1>
+        <p>Descubra curiosidades sobre o espaço!</p>
+    </header>
+
+    <main>
+        <h2>Curiosidade do dia</h2>
+        <h3>O planeta Saturno</h3>
+
+        <p>
+            Saturno é conhecido por seus enormes anéis,
+            formados principalmente por pedaços de gelo e rochas.
+        </p>
+
+        <button id="btnDetalhes" aria-controls="detalhes" aria-expanded="false">
+            Saiba mais
+        </button>
+
+        <p id="detalhes" hidden>
+            Saturno é o sexto planeta a partir do Sol e é um gigante gasoso.
+            Apesar de ser muito grande, sua densidade média é menor que a da água.
+        </p>
+    </main>
+
+    <footer>
+        <button id="btnTema" aria-pressed="false">
+            Ativar modo escuro
+        </button>
+
+        <button id="btnCor" aria-pressed="false">
+            Mudar cor
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
